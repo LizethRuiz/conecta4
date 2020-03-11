@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Erica+One);
+
+.titulo{
+    color:#4364A6;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: 'Erica One', cursive;
+    font-size: 40px;
+    text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+}
+
+.divBotones{
+    padding-bottom: 10px;
+}
+.divTabla{
+    text-align: center;
+}
+.tabla{
+    margin: 0 auto;
+    text-align: left;
+    width: 560px;
+    background-color:#C7D9DF;
+    border-spacing: 10px 8px;
+    border-radius:30px;
+}
+.botones{
+    background-color: #6395FA;
+    color: white;
+    width:75px;
+    height: 30px;
+    border-radius:50px;
+}
+.circulo {
+     border-radius: 50%;
+     background:snow;
+     width: 50px;
+     text-align: center;
+     box-shadow: 10px 10px 10px -10px #B6B7B7;
+}
+.circuloMorado{
+    border-radius: 50%;
+    background:salmon;
+    width: 50px;
+    text-align: center;
+    
+}
+
+.turno{
+    font-family:Arial;
+    text-align: right;
+    margin-right: 450px;
+}

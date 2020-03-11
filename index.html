@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta Cuatro</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <script src="./conecta.js" ></script>
+</head>
+<body>
+  <div class="titulo">
+    CONNECT 4
+  </div>
+  <div class="divTabla">
+    <div class="turno">
+      <h4 id="turn"></h4>
+    </div>
+    <div class="divBotones">
+      <button id= "btn1" class="botones" onclick="escribir(this.id,c50,c40,c30,c20,c10,c00,0,turn)"></button>
+      <button id= "btn2" class="botones" onclick="escribir(this.id,c51,c41,c31,c21,c11,c01,1,turn)"></button>
+      <button id= "btn3" class="botones" onclick="escribir(this.id,c52,c42,c32,c22,c12,c02,2,turn)"></button>
+      <button id= "btn4" class="botones" onclick="escribir(this.id,c53,c43,c33,c23,c13,c03,3,turn)"></button>
+      <button id= "btn5" class="botones" onclick="escribir(this.id,c54,c44,c34,c24,c14,c04,4,turn)"></button>
+      <button id= "btn6" class="botones" onclick="escribir(this.id,c55,c45,c35,c25,c15,c05,5,turn)"></button>
+      <button id= "btn7" class="botones" onclick="escribir(this.id,c56,c46,c36,c26,c16,c06,6,turn)"></button>
+    </div>
+    <table id="table1" class="tabla">
+      <tr height="80px">
+        <td id="c00" class="circulo"></td>
+        <td id="c01" class="circulo"></td>
+        <td id="c02" class="circulo"></td>
+        <td id="c03" class="circulo"></td>
+        <td id="c04" class="circulo"></td>
+        <td id="c05" class="circulo"></td>
+        <td id="c06" class="circulo"></td>
+      </tr>
+      <tr height="80px">
+        <td id="c10" class="circulo"></td>
+        <td id="c11" class="circulo"></td>
+        <td id="c12" class="circulo"></td>
+        <td id="c13" class="circulo"></td>
+        <td id="c14" class="circulo"></td>
+        <td id="c15" class="circulo"></td>
+        <td id="c16" class="circulo"></td>
+      </tr>
+      <tr height="80px">
+        <td id="c20" class="circulo"></td>
+        <td id="c21" class="circulo"></td>
+        <td id="c22" class="circulo"></td>
+        <td id="c23" class="circulo"></td>
+        <td id="c24" class="circulo"></td>
+        <td id="c25" class="circulo"></td>
+        <td id="c26" class="circulo"></td>
+      </tr>
+      <tr height="80px">
+        <td id="c30" class="circulo"></td>
+        <td id="c31" class="circulo"></td>
+        <td id="c32" class="circulo"></td>
+        <td id="c33" class="circulo"></td>
+        <td id="c34" class="circulo"></td>
+        <td id="c35" class="circulo"></td>
+        <td id="c36" class="circulo"></td>
+      </tr>
+      <tr height="80px">
+        <td id="c40" class="circulo"></td>
+        <td id="c41" class="circulo"></td>
+        <td id="c42" class="circulo"></td>
+        <td id="c43" class="circulo"></td>
+        <td id="c44" class="circulo"></td>
+        <td id="c45" class="circulo"></td>
+        <td id="c46" class="circulo"></td>
+      </tr>
+      <tr height="80px">
+        <td id="c50" class="circulo"></td>
+        <td id="c51" class="circulo"></td>
+        <td id="c52" class="circulo"></td>
+        <td id="c53" class="circulo"></td>
+        <td id="c54" class="circulo"></td>
+        <td id="c55" class="circulo"></td>
+        <td id="c56" class="circulo"></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
+
+    
